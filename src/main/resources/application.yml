@@ -1,9 +1,8 @@
 spring:
   datasource:
-    driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/bartender
-    username: root
-    password: sebas123
+    url: jdbc:postgresql://ec2-3-212-75-25.compute-1.amazonaws.com:5432/ddbfsh1e6g7rfq
+    username: riggzlmxkxivsv
+    password: ec3ddcd04a35d260d0bfdc2121862d8aef419e7ed23916e16274432a2180d9d2
   jpa:
     hibernate.ddl-auto: none
     show-sql: true
